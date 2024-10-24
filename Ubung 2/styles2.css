@@ -1,0 +1,33 @@
+table {
+  border-collapse: collapse;
+  margin: 10px auto;
+  border-style: solid;
+  font-size: 20px;
+}
+
+tr {
+  border-style: solid;
+  padding: 10px;
+}
+
+td,
+th {
+  border-style: solid;
+  padding: 10px;
+}
+
+img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+input,
+label {
+  margin: 3px;
+  max-width: 200px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: row;
+}

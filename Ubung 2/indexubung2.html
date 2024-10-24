@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorin Ubung 2</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <h1>Titlu</h1>
+    <table>
+      <caption>
+        Stundenplan
+      </caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Dozent</th>
+          <th>Fach</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Schmidt</td>
+          <td>Chemie</td>
+          <td><img src="https://i.etsystatic.com/9715836/r/il/36c39f/1649124371/il_570xN.1649124371_aom2.jpg" alt="lala"></td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Braun</td>
+            <td>Mathe</td>
+            <td><a href="https://docs.google.com/spreadsheets/d/1YC0NYAObBkO0SlymnHdnkY5Rzb3mxFs8Ep5M77Fr5Pw/edit?gid=0#gid=0"><img src="https://e7.pngegg.com/pngimages/918/822/png-clipart-donald-duck-illustration-donald-duck-mickey-mouse-bugs-bunny-donald-duck-heroes-vertebrate.png" alt=""></a></td>
+        </tr>
+        <tfoot>
+            <th>Total</th>
+            <td>2</td>
+            <td>2</td>
+        </tfoot>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <form action="auswertung.php" method="post">
+        <fieldset>
+            <legend>Personliche Daten</legend>
+            <label for="i_name">Vorname</label>
+            <input type="text" id="i_name" name="name">
+            <label for="i_fach">Fach</label>
+            <input type="text" id="i_fach" name="fach">
+            <label for="i_auswahl">Hörersatus</label>
+            <select name="hörer" id="i_auswahl">
+                <option value="0">--</option>
+                <option value="1">Option 1</option>
+                <option value="1">Option 2</option>
+            </select>
+        </fieldset>
+        <button type="submit">Done</button>
+        <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
