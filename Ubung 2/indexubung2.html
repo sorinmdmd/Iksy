@@ -1,3 +1,6 @@
+<!-- 
+  DESCRIPTION: This HTML file represents a webpage for "Sorin Ubung 2". It includes a table displaying a schedule (Stundenplan) with columns for Dozent, Fach, and Image. The table has a caption, header, body, and footer. Additionally, there is a form for collecting personal data with fields for Vorname, Fach, and Hörersatus, and buttons for submitting and resetting the form.
+-->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -30,29 +33,29 @@
             <th>2</th>
             <td>Braun</td>
             <td>Mathe</td>
-            <td><a href="https://docs.google.com/spreadsheets/d/1YC0NYAObBkO0SlymnHdnkY5Rzb3mxFs8Ep5M77Fr5Pw/edit?gid=0#gid=0"><img src="https://e7.pngegg.com/pngimages/918/822/png-clipart-donald-duck-illustration-donald-duck-mickey-mouse-bugs-bunny-donald-duck-heroes-vertebrate.png" alt=""></a></td>
+            <td><a href="https://docs.google.com/spreadsheets/d/1YC0NYAObBkO0SlymnHdnkY5Rzb3mxFs8Ep5M77Fr5Pw/edit?gid=0#gid=0"><img src="https://e7.pngegg.com/pngimages/918/822/png-clipart-donald-duck-illustration-donald-duck-mickey-mouse-bugs-bunny-donald-duck-heroes-vertebrate.png" alt="Donald Duck illustration"></a></td>
         </tr>
-        <tfoot>
-            <th>Total</th>
-            <td>2</td>
-            <td>2</td>
-        </tfoot>
       </tbody>
+      <tfoot>
+          <th>Total</th>
+          <td>2</td>
+          <td>2</td>
+      </tfoot>
     </table>
     <br>
     <br>
     <form action="auswertung.php" method="post">
         <fieldset>
             <legend>Personliche Daten</legend>
-            <label for="i_name">Vorname</label>
-            <input type="text" id="i_name" name="name">
+            <label for="i_vorname">Vorname</label>
+            <input type="text" id="i_vorname" name="name">
             <label for="i_fach">Fach</label>
             <input type="text" id="i_fach" name="fach">
             <label for="i_auswahl">Hörersatus</label>
-            <select name="hörer" id="i_auswahl">
+            <select name="hörer" id="i_selection">
                 <option value="0">--</option>
                 <option value="1">Option 1</option>
-                <option value="1">Option 2</option>
+                <option value="2">Option 2</option>
             </select>
         </fieldset>
         <button type="submit">Done</button>

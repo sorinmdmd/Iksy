@@ -1,0 +1,11 @@
+{
+    "name": "sorinotel/smarty",
+    "autoload": {
+        "psr-4": {
+            "Sorinotel\\Smarty\\": "src/"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^5.4"
+    }
+}

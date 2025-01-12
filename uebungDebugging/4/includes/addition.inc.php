@@ -4,7 +4,7 @@
     $summe=0;
     for ($i=1; $i<=$bisZu; $i++)
     {
-        $summe=$summe+$i
+        $summe=$summe+$i;
     }
     echo("Die Summe der ersten $bisZu natürlichen
 					Zahlen ist: $summe");
