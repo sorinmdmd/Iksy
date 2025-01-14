@@ -1,0 +1,17 @@
+{
+    "name": "sorinotel/smartyubung8",
+    "autoload": {
+        "psr-4": {
+            "Sorinotel\\Smartyubung8\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sorin Otel",
+            "email": "otelsorin@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^5.4"
+    }
+}
