@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Division zweier Zahlen</h2>
-    <form name="division" action="./division1.php" method="post">
+    <form name="division" action="./division3.php" method="post">
         <label for="i_zaehler">Zähler</label>
         <input type="number" name="zaehler" id="i_zaehler" size="12"><br>
         <label for="i_nenner">Nenner</label>

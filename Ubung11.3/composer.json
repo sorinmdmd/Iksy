@@ -1,0 +1,17 @@
+{
+    "name": "sorinotel/ubung11.3",
+    "autoload": {
+        "psr-4": {
+            "Sorinotel\\Ubung113\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sorin Otel",
+            "email": "otelsorin@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^5.4"
+    }
+}

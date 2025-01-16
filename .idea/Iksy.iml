@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Ubung11.3/src" isTestSource="false" packagePrefix="Sorinotel\Ubung113\" />
+      <sourceFolder url="file://$MODULE_DIR$/smarty/src" isTestSource="false" packagePrefix="Sorinotel\Smarty\" />
+      <sourceFolder url="file://$MODULE_DIR$/smartyubung8/src" isTestSource="false" packagePrefix="Sorinotel\Smartyubung8\" />
+      <excludeFolder url="file://$MODULE_DIR$/Ubung11.3/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Ubung11.3/vendor/smarty/smarty" />
+      <excludeFolder url="file://$MODULE_DIR$/Ubung11.3/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/smarty/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/smarty/vendor/smarty/smarty" />
+      <excludeFolder url="file://$MODULE_DIR$/smarty/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/smartyubung8/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/smartyubung8/vendor/smarty/smarty" />
+      <excludeFolder url="file://$MODULE_DIR$/smartyubung8/vendor/symfony/polyfill-mbstring" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
