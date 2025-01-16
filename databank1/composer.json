@@ -1,0 +1,17 @@
+{
+    "name": "sorinotel/databank1",
+    "autoload": {
+        "psr-4": {
+            "Sorinotel\\Databank1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sorin Otel",
+            "email": "otelsorin@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^5.4"
+    }
+}
