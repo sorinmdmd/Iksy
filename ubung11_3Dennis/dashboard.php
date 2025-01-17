@@ -12,7 +12,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== "true"){
     header("Location: index.php");
     exit();
 }else{
-    $benutzername = $_SESSION['benutzername'] ?? "Gast";
+    $benutzername = $SESSION['benutzername'] ?? "Gast";
     $smarty->assign('benutzername', $benutzername);
     $smarty->assign('ausgabe', session_id());
     
