@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Result Page</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
     <h1>Result Page</h1>
-    <p>This is a basic HTML template for the result page.</p>
-    {if $result}
-    {foreach from=$result item=row}
-        {foreach from=$row key=key item=value}
-            {$key}: {$value}<br>
-        {/foreach}
-        <hr>
-    {/foreach}
-{else}
-    No results found.
-{/if}
-
+    
+    <table style="border-collapse: collapse; width: auto; margin: 0 auto;">
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black; padding: 8px;">ProjektNr</th>
+            <th style="border: 1px solid black; padding: 8px;">Bezeichnung</th>
+            <th style="border: 1px solid black; padding: 8px;">AufwandTage</th>
+            <th style="border: 1px solid black; padding: 8px;">Kosten</th>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">{$ProjektNr}</td>
+            <td style="border: 1px solid black; padding: 8px;">{$Bezeichnung}</td>
+            <td style="border: 1px solid black; padding: 8px;">{$AufwandTage}</td>
+            <td style="border: 1px solid black; padding: 8px;">{$cost}</td>
+        </tr>
+    </table>
+    
+    <a href="index.php">Back to Form</a>
 </body>
 </html>
