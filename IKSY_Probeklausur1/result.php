@@ -1,4 +1,3 @@
-// result.php
 <?php
 require_once 'includes/startTemplate.inc.php';
 require_once 'klassen/DbFunctions.inc.php';

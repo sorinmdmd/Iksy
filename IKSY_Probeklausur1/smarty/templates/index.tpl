@@ -7,12 +7,12 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
+    <h1>MySQL Request</h1>
     <form method="POST" action="{$smarty.server.PHP_SELF}">
         <!-- Use Smarty syntax for CSRF token -->
         <input type="hidden" name="csrf_token" value="{$csrf_token}">
         
-        <label for="nummer">Nummer</label>
+        <label for="nummer">Select which project you want to see</label>
         <br>
         <select name="nummer" id="nummer">
             <option value="1">1</option>
